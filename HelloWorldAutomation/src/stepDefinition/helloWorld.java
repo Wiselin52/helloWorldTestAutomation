@@ -34,6 +34,7 @@ public class helloWorld {
 			chromeOptions.addArguments("disable-infobars");
 			chromeOptions.addArguments("disable-extensions");
 			caps.merge(chromeOptions);
+			System.setProperty("webdriver.chrome.driver", "/Users/wiselin/git/helloWorldTestAutomation/HelloWorldAutomation/chromedriver");
 			driver = new ChromeDriver(caps);
 					
 		}else if("firefox".equalsIgnoreCase(browser)) {

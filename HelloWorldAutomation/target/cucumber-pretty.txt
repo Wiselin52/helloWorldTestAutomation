@@ -1,0 +1,8 @@
+Feature: Login Action
+
+  Scenario: Successful Login with Valid Credentials                                              [90m# helloWorld.feature:3[0m
+    [32mGiven [0m[32mUser is on Home Page "[0m[32m[1mhttp://localhost:8081/helloWorld/index.html[0m[32m" on browser "[0m[32m[1mchrome[0m[32m"[0m [90m# helloWorld.user_is_on_Home_Page(String,String)[0m
+    [32mWhen [0m[32mUser Enters Username as "[0m[32m[1mJohn Doe[0m[32m"[0m                                                      [90m# helloWorld.user_Enters_Username_as(String)[0m
+    [32mAnd [0m[32mUser clicks on "[0m[32m[1mSubmit[0m[32m" button[0m                                                           [90m# helloWorld.user_clicks_on_button(String)[0m
+    [32mThen [0m[32mMessage displayed "[0m[32m[1mHello John Doe[0m[32m"[0m                                                      [90m# helloWorld.message_displayed(String)[0m
+    [32mThen [0m[32mclose browser[0m                                                                           [90m# helloWorld.close_browser()[0m

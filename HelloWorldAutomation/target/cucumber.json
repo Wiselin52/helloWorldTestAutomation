@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1512300763,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page \"http://localhost:8081/helloWorld/index.html\" on browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:8081/helloWorld/index.html",
+                  "offset": 22
+                },
+                {
+                  "val": "chrome",
+                  "offset": 79
+                }
+              ],
+              "location": "helloWorld.user_is_on_Home_Page(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73120953,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters Username as \"John Doe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 25
+                }
+              ],
+              "location": "helloWorld.user_Enters_Username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39441148,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Submit",
+                  "offset": 16
+                }
+              ],
+              "location": "helloWorld.user_clicks_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21896582,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Message displayed \"Hello John Doe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello John Doe",
+                  "offset": 19
+                }
+              ],
+              "location": "helloWorld.message_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107261608,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "helloWorld.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "helloWorld.feature"
+  }
+]
