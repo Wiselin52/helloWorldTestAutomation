@@ -5,12 +5,12 @@
       {
         "name": "User Enters Username as \"John Doe\"",
         "aggregatedDurations": {
-          "average": 0.073120953,
-          "median": 0.073120953
+          "average": 0.145128413,
+          "median": 0.145128413
         },
         "durations": [
           {
-            "duration": 0.073120953,
+            "duration": 0.145128413,
             "location": "helloWorld.feature:5"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "Message displayed \"Hello John Doe\"",
         "aggregatedDurations": {
-          "average": 0.021896582,
-          "median": 0.021896582
+          "average": 0.029879017,
+          "median": 0.029879017
         },
         "durations": [
           {
-            "duration": 0.021896582,
+            "duration": 0.029879017,
             "location": "helloWorld.feature:7"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "User clicks on \"Submit\" button",
         "aggregatedDurations": {
-          "average": 0.039441148,
-          "median": 0.039441148
+          "average": 0.055518918,
+          "median": 0.055518918
         },
         "durations": [
           {
-            "duration": 0.039441148,
+            "duration": 0.055518918,
             "location": "helloWorld.feature:6"
           }
         ]
@@ -59,12 +59,12 @@
       {
         "name": "User is on Home Page \"http://localhost:8081/helloWorld/index.html\" on browser \"chrome\"",
         "aggregatedDurations": {
-          "average": 1.512300763,
-          "median": 1.512300763
+          "average": 2.418621887,
+          "median": 2.418621887
         },
         "durations": [
           {
-            "duration": 1.512300763,
+            "duration": 2.418621887,
             "location": "helloWorld.feature:4"
           }
         ]
@@ -77,12 +77,12 @@
       {
         "name": "close browser",
         "aggregatedDurations": {
-          "average": 0.107261608,
-          "median": 0.107261608
+          "average": 0.08951593,
+          "median": 0.08951593
         },
         "durations": [
           {
-            "duration": 0.107261608,
+            "duration": 0.08951593,
             "location": "helloWorld.feature:8"
           }
         ]

@@ -53,7 +53,7 @@ formatter.match({
   "location": "helloWorld.user_is_on_Home_Page(String,String)"
 });
 formatter.result({
-  "duration": 1512300763,
+  "duration": 2418621887,
   "status": "passed"
 });
 formatter.match({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "helloWorld.user_Enters_Username_as(String)"
 });
 formatter.result({
-  "duration": 73120953,
+  "duration": 145128413,
   "status": "passed"
 });
 formatter.match({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "helloWorld.user_clicks_on_button(String)"
 });
 formatter.result({
-  "duration": 39441148,
+  "duration": 55518918,
   "status": "passed"
 });
 formatter.match({
@@ -92,14 +92,14 @@ formatter.match({
   "location": "helloWorld.message_displayed(String)"
 });
 formatter.result({
-  "duration": 21896582,
+  "duration": 29879017,
   "status": "passed"
 });
 formatter.match({
   "location": "helloWorld.close_browser()"
 });
 formatter.result({
-  "duration": 107261608,
+  "duration": 89515930,
   "status": "passed"
 });
 });

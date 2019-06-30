@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.754021">
-    <testcase classname="Login Action" name="Successful Login with Valid Credentials" time="1.754021">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.738664">
+    <testcase classname="Login Action" name="Successful Login with Valid Credentials" time="2.738664">
         <system-out>
             <![CDATA[Given User is on Home Page "http://localhost:8081/helloWorld/index.html" on browser "chrome".passed
 When User Enters Username as "John Doe".....................................passed
